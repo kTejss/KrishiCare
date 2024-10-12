@@ -1,0 +1,16 @@
+venv/
+.gitattributes
+chatBackend/__pycache__/
+consult/__pycache__/
+home/__pycache__/
+imgupload/__pycache__/
+Krish/__pycache__/
+weatherapp/__pycache__/
+imgupload/new-plant-diseases-dataset/
+temp/
+consult/migrations/
+chatBackend/migrations/
+imgupload/migrations/
+Krish/migrations/
+weatherapp/migrations/
+home/migrations/

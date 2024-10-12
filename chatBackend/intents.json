@@ -1,0 +1,304 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :)",
+        "Hello, welcome to KrishiCare",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "KrishiCare",
+        "patterns": [
+          "What is KrishiCare?",
+          "What is Krishi Care?",
+          "Why use this website KrishiCare?",
+          "how will you help farmers?",
+          "How KrishiCare could help me?",
+          "What you can do?",
+          "What help you provide?",
+          "How you can be helpful?",
+          "What support is offered"
+        ],
+      "responses": [
+        "KrishiCare is a teleconsultation website for farmers! We provide online/offline help to farmers in remote areas. Farmers can get support in various agricultural activities, by the help of consultants as well as connect with their peers through the website."
+      ]
+    },
+    {
+      "tag": "signup",
+      "patterns": [
+        "How can I signup?",
+        "How to register?",
+        "Do i need email?",
+        "How can I login?",
+        "can i use aadhar number?"
+      ],
+      "responses": [
+        "Click on the signup button on the top right.",
+        "you can signup using your email ID",
+        "you have to signup using an email ID or mobile number"
+      ]
+    },
+    {
+      "tag": "contact",
+        "patterns": [
+          "How to contact you?",
+          "do you have email?",
+          "what is your customer care number?"
+        ],
+        "responses": [
+          "we have an email demo@krishicare.org",
+          "we have a customer care number 1234567890",
+          "you can contact us on 020-45678901 "
+        ]
+    },
+    {
+      "tag": "weather",
+        "patterns": [
+          "tell me about weather forecast",
+          "how will be the weather?",
+          "what is today's temperature",
+          "temperature",
+          "weather"
+        ],
+        "responses": [
+          "Please click on the map to see weather forecast",
+          "We have a feature to display weather forecast!"
+        ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+          "news",
+          "latest news",
+          "government new schemes",
+          "what are the new schemes",
+          "government schemes information",
+          "tell me about government schemes"
+      ],
+      "responses": [
+          "Please click on the Govt. schemes tab to get all the latest information"
+      ]
+    },
+    {
+      "tag": "offline",
+      "patterns": [
+          "do you have any offline services?",
+          "offline services?"  
+      ],
+      "responses": [
+          "Currently we are underway to improve our offline services and we will introduce SMS services soon!"
+      ]
+    },
+    {
+      "tag": "Features",
+      "patterns": [
+        "What are the Features of this website?",
+        "What help does it offer?",
+        "What can I use from this website?",
+        "Features of KrishiCare"
+      ],
+      "responses": [
+        "We offer a platform to help the farmers benefit in the agricultural sector and to provide personal attention to individual farmers. We also provide online teleconsultation services.",
+        "Our Features are : Personal attention to individual farmers, Crop Health checkups and online teleconsultation services."
+      ]
+    },
+    
+    {
+      "tag": "forum",
+      "patterns": [
+        "What is forum",
+        "What can i do with forum",
+        "What does forum do"
+      ],
+      "responses": [
+        "It is a peer-to-peer consultation platform where the farmers will be able to connect with farmers as well as experts from all over the country.",
+        "Farmers can come in contact with other farmers to ask for help and give advice to each other."
+      ]
+    },
+
+    {
+      "tag": "VoiceAssistant",
+      "patterns": [
+        "What is the voice assistant",
+        "How does Voice Assistant work"
+      ],
+      "responses": [
+        "The Voice Assistant is a guide through the website. You just need to speak and it will help with anything you want.",
+        "You just need to speak and the Voice Assistant will guide you and explain everything you want to know about the website."
+      ]
+    },
+
+    {
+      "tag": "f1",
+      "patterns": [
+        "How to contact soil centres"
+      ],
+      "responses": [
+        "You can find the number to your nearest centre in this xxxxxx section."
+      ]
+    },
+
+    {
+      "tag": "f2",
+      "patterns": [
+        "How do I sell my product here"
+      ],
+      "responses": [
+        "You can go to forum to sell or rent any product."
+      ]
+    },
+
+    {
+      "tag": "RiceCrop",
+      "patterns": [
+        "How many types of Rice are grown in India?",
+        "What are the varieties of Rice in India?"
+      ],
+      "responses": [
+        "There are more than 50 different varieties of Rice grown in differt parts of India. Some of them are Basmati, Dubraj, Burma Black, Gandhsale, Gobindobhog, HMT Kolam, Jawaful, Kalabati, Laxmibhog, Mysore Mallige, Parmal. "
+      ]
+    },
+
+    {
+      "tag": "ChhatisgarhRice",
+      "patterns": [
+        "What is the best variety of rice that can be grown in Chhatisgarh?"
+      ],
+      "responses": [
+        "Dubraj is the best type of Rice that can be grown in Chhatisgarh."
+      ]
+    },
+
+    {
+      "tag": "KarnatakaRice",
+      "patterns": [
+        "What is the best variety of rice that can be grown in Karnataka?",
+        "What type of Rice can I grow in Karnataka?"
+      ],
+      "responses": [
+        "Rajamudi, Gandhsale, Burma Black is the best type of Rice that can be grown in Karnataka."
+      ]
+    },
+
+    {
+      "tag": "TypeOfDisease",
+      "patterns": [
+        "Why are leaves of my crop turning yellow?"
+      ],
+      "responses": [
+        "It can be because of lack of irrigaton."
+      ]
+    },
+
+    {
+      "tag": "WBRice",
+      "patterns": [
+        "What type of rice is the best to grow in West Bengal?"
+      ],
+      "responses": [
+        "Bhut Muri, Gobindobhog, Kamini, Laxmibhog are some of the rice that can be grown in West Bengal"
+      ]
+    },
+
+    {
+      "tag": "KharifCrops",
+      "patterns": [
+        "What are the Kharif crops grown in India?"
+      ],
+      "responses": [
+        "Rice, Maize, Jowar, Bajra, Tur (arhar), Moong, Urad, Cotton, Jute, Groundnut and Soyabean are the main crops grown in the Kharif season."
+      ]
+    },
+
+    {
+      "tag": "RabiCrops",
+      "patterns": [
+        "What are the Rabi crops grown in India?"
+      ],
+      "responses": [
+        "Wheat, Barley, Oats, Pulses, Mustard and Linseed are the main crops grown in Rabi season."
+      ]
+    },
+
+    {
+      "tag": "ZaidCrops",
+      "patterns": [
+        "What are the Zaid crops grown in India?"
+      ],
+      "responses": [
+        "Important crops produced during Zaid season are Watermelon, Muskmelon, Cucumber, Vegetables and Fodder crops."
+      ]
+    },
+    {
+      "tag": "soil_health",
+      "patterns": [
+         "How do I check and improve soil health?",
+         "can you suggest me any method to enhance soil health?",
+         "How to ensure the health of my soil?"
+      ],
+      "responses": [
+         "Yes, we can suggest some methods to improve soil health. Regular soil testing can help identify nutrient deficiencies. Applying compost or manure can increase soil organic matter and improve its structure. Adding limestone or other lime sources can increase pH levels and reduce soil acidity. Also, reducing soil tillage and implementing a healthy mulching strategy can help improve soil health."
+      ]
+     },
+     {
+      "tag": "temperature",
+      "patterns": [
+         "How do I determine the optimal temperature for my crop?",
+         "what is the ideal temperature for plant growth?",
+         "how do I find the ideal temperature for my crops?"
+      ],
+      "responses": [
+         "To determine the optimal temperature for your crop, it's essential to consider the crop's specific requirements. Some crops may thrive in warmer temperatures, while others may require cooler conditions. Keep in mind that the optimal temperature varies depending on the crop's life stage, such as vegetative, reproductive, or flowering. You can also use weather forecasts or a nearby weather station to get temperature data for your area."
+      ]
+     },
+     {
+      "tag": "soil_type",
+      "patterns": [
+         "What type of soil is suitable for growing [CROP]?",
+         "what is the best soil type for my crop?",
+         "how do I determine the ideal soil type for my crop?"
+      ],
+      "responses": [
+         "The ideal soil type for a particular crop can vary significantly. Some crops prefer well-drained soils, while others may thrive in more acidic or alkaline conditions. To determine the best soil type for your crop, you can refer to our crop expert. They can provide guidance based on your crop's specific needs and your available soil types."
+      ]
+     },
+     {
+      "tag": "crops_soil",
+      "patterns": [
+         "What crops can I grow in my soil?",
+         "which crops are suitable for my soil type?",
+         "how do I find the best crops for my soil type?"
+      ],
+      "responses": [
+         "Determining the best crops for your soil type requires knowledge of the soil's characteristics, such as texture, drainage, and pH levels. You can consult your local agricultural extension office or a crop expert to provide guidance on suitable crops based on your soil's properties. Additionally, soil testing can help you understand your soil's composition and determine the most suitable crops."
+      ]
+     }
+
+
+  ]
+}

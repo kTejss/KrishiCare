@@ -1,0 +1,14 @@
+<!-- chatbot.html -->
+{% for message in messages %}
+  <div>
+    <p>{{ message.user_message }}</p>
+    {% if message.bot_message %}
+      <p>{{ message.bot_message }}</p>
+    {% endif %}
+  </div>
+{% endfor %}
+<form method="post">
+  {% csrf_token %}
+  <input type="text" name="message" placeholder="Type your message here...">
+  <button type="submit">Send</button>
+</form>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+{% load i18n %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Krishi Care Research Work</title>
+    {% load static %}
+    <link rel="shortcut icon" href="{%  static 'favicon.ico' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'Css/directory.css' %} ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="{% static 'js/directory.js'%}" defer></script>
+  </head>
+  <body>
+    <h1>Krishi Care Research Images</h1>
+    <div class="lightbox">
+      <div class="wrapper">
+        <header>
+          <div class="details">
+            <i class="uil uil-camera"></i>
+            <span>Image Preview</span>
+          </div>
+          <div class="buttons"><i class="close-icon uil uil-times"></i></div>
+        </header>
+        <div class="preview-img">
+          <div class="img"><img src="" alt="preview-img"></div>
+        </div>
+      </div>
+    </div>
+    <section class="gallery">
+      <ul class="images">
+        
+        <li class="img"><img src="{% static 'Images\Directory\Onion_plantation.jpg'%}" alt="img"></li>
+        <li class="img"><img src="{% static 'Images\Directory\Onion_plantation_2.jpg'%}" alt="img"></li>
+        <li class="img"><img src="{% static 'Images\Directory\Onion_plantation_closeup_1.jpg'%}" alt="img"></li>
+        <li class="img"><img src="{% static 'Images\Directory\Onion_plantation_oerview_1.jpg'%}" alt="img"></li>
+        <li class="img"><img src="{% static 'Images\Directory\Onion_plantation_oerview_2.jpg'%}" alt="img"></li>
+        <li class="img"><img src="{% static 'Images\Directory\Onion_plantation_oerview_3.jpg'%}" alt="img"></li>
+        {%comment%}<li class="img"><img src="{% static 'Images\Directory\Rice_plantation_initial_1.jpg'%}" alt="img"></li>{%endcomment%}
+        <li class="img"><img src="{% static 'Images\Directory\Rice_plantation_initial_closeup_2.jpg'%}" alt="img"></li>
+        <li class="img"><img src="{% static 'Images\Directory\Rice_plantation_initial_closeup_3.jpg'%}" alt="img"></li>
+        <li class="img"><img src="{% static 'Images\Directory\Rice_plantation_initial_closeup.jpg'%}" alt="img"></li>
+        <li class="img"><img src="{% static 'Images\Directory\Rice_plantation_good_1.jpg'%}" alt="img"></li>
+        <li class="img"><img src="{% static 'Images\Directory\Rice_overview_1.jpg'%}" alt="img"></li>
+        <li class="img"><img src="{% static 'Images\Directory\Rice_closeup_1.jpg'%}" alt="img"></li>
+        <li class="img"><img src="{% static 'Images\Directory\Rice_closeup_2.jpg'%}" alt="img"></li>
+        <li class="img"><img src="{% static 'Images\Directory\Rice_closeup_3.jpg'%}" alt="img"></li>
+        <li class="img"><img src="{% static 'Images\Directory\Rice_closeup_4.jpg'%}" alt="img"></li>
+        <li class="img"><img src="{% static 'Images\Directory\Farmer_sitting.jpg'%}" alt="img"></li>
+        <li class="img"><img src="{% static 'Images\Directory\Farmer_standing.jpg'%}" alt="img"></li>
+        <li class="img"><img src="{% static 'Images\Directory\soil_1.jpg'%}" alt="img"></li>
+        <li class="img"><img src="{% static 'Images\Directory\soil_2.jpg'%}" alt="img"></li>
+      </ul>
+    </section>
+
+  </body>
+</html>
