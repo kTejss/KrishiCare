@@ -48,4 +48,4 @@ python manage.py runserver
 ```
 Base Taken from KrishiUnnati - Github
 
-Project developed by - [Sxarlett<3](https://sxarlett.co)
+Project developed by - [Team KrishiCare](https://github.com/kTejss)
